@@ -69,8 +69,8 @@
 }
 
 .tech-tags span {
-  background: #0ef2;
-  color: #000;
+  background: rgba(60, 192, 201, 0.133);
+  color: #11dac6;
   padding: 4px 8px;
   margin-right: 6px;
   border-radius: 4px;

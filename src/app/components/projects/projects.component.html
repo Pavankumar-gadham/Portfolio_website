@@ -6,7 +6,9 @@
       <img [src]="project.image" alt="{{ project.name }}" />
       <div class="card-content">
         <h3>{{ project.name }}</h3>
-        <p>{{ project.description }}</p>
+        <div>
+          <p *ngFor="let line of project.description">{{ line }}<br></p>
+        </div>
         <div class="tech-tags">
           <span *ngFor="let tech of project.tech">{{ tech }}</span>
         </div>
