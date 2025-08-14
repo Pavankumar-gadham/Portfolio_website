@@ -9,6 +9,15 @@ import { Project } from 'src/projects.model';
 export class ProjectsComponent {
   projects: Project[] = [
     {
+      name: 'Recipe Manager',
+      description: ['Designed a full-stack recipe management system with Django REST Framework, Angular, and JWT authentication.',
+      'Collaborated asynchronously with a distributed team using GitHub and Slack to implement CRUD operations and resolve UI bugs.'],
+      tech: ['Angular', 'DRF', 'Python'],
+      image: 'assets/images/recipe.jpeg',
+      liveLink: 'https://foodie-heaven-black.vercel.app/home',
+      codeLink: 'https://github.com/Pavankumar-gadham/Foodieheaven_backend'
+    },
+    {
       name: 'Food Ordering System',
       description: ['Developed a dynamic food ordering web app using Django REST Framework and Angular with secure JWT authentication.',
       'Integrated RESTful APIs and real-time order management features, enabling seamless remote frontend-backend communication.'],
@@ -34,15 +43,6 @@ export class ProjectsComponent {
       image: 'assets/images/image.jpeg',
       liveLink: 'https://image-search-seven-rouge.vercel.app/',
       codeLink: 'https://github.com/Pavankumar-gadham/Image-Search'
-    },
-    {
-      name: 'Recipe Manager',
-      description: ['Designed a full-stack recipe management system with Django REST Framework, Angular, and JWT authentication.',
-      'Collaborated asynchronously with a distributed team using GitHub and Slack to implement CRUD operations and resolve UI bugs.'],
-      tech: ['Angular', 'DRF', 'Python'],
-      image: 'assets/images/recipe.jpeg',
-      liveLink: 'https://foodie-heaven-black.vercel.app/home',
-      codeLink: 'https://github.com/Pavankumar-gadham/Foodieheaven_backend'
     },
     {
       name: 'Heart Disease Identification',
