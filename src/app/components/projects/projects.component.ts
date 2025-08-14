@@ -41,8 +41,8 @@ export class ProjectsComponent {
       'Collaborated asynchronously with a distributed team using GitHub and Slack to implement CRUD operations and resolve UI bugs.'],
       tech: ['Angular', 'DRF', 'Python'],
       image: 'assets/images/recipe.jpeg',
-      liveLink: '',
-      codeLink: 'https://github.com/Pavankumar-gadham/E-commerce-RecipeHUb'
+      liveLink: 'https://foodie-heaven-black.vercel.app/home',
+      codeLink: 'https://github.com/Pavankumar-gadham/Foodieheaven_backend'
     },
     {
       name: 'Heart Disease Identification',
