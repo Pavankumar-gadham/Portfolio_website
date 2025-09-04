@@ -28,12 +28,12 @@ export class ProjectsComponent {
     },
     {
       name: 'Ecommerce Shopping Website',
-      description: ['Built a scalable eCommerce platform using Django and Angular with features like user authentication, product listings, and cart management.',
+      description: ['Built a scalable eCommerce platform and Angular with features like user authentication, product listings, and cart management.',
       'Optimized database queries and collaborated via GitHub and Trello in a remote workflow environment.'],
-      tech: ['HTML', 'CSS', 'Javascript'],
+      tech: ['Angular', 'HTML', 'CSS', 'Javascript'],
       image: 'assets/images/shopping.jpeg',
-      liveLink: 'https://e-commerce-shopping-website-liart.vercel.app/',
-      codeLink: 'https://github.com/Pavankumar-gadham/E-commerce-shopping-website'
+      liveLink: 'https://e-commerce-shopping-azure.vercel.app/home',
+      codeLink: 'https://github.com/Pavankumar-gadham/E-commerce-shopping'
     },
     {
       name: 'Image Search Application',
