@@ -9,6 +9,18 @@ import { Project } from 'src/projects.model';
 export class ProjectsComponent {
   projects: Project[] = [
     {
+      name: 'Ecommerce Shopping Website',
+      description: [
+        'Developed a full-stack eCommerce application using Angular and Django REST Framework with features like product management, user authentication, and cart/checkout workflow.',
+        'Containerized both frontend and backend using Docker and deployed the complete application on AWS EC2 with Nginx reverse proxy and persistent storage for production reliability.',
+      ],
+      tech: ['Angular', 'DRF', 'Docker', 'AWS EC2', 'Nginx', 'SQLite'],
+      image: 'assets/images/ecommerce.webp',
+      liveLink: 'http://16.171.174.66:3000',  
+      codeLink: 'https://github.com/Pavankumar-gadham/django-angular-ecommerce-aws-'
+    },
+
+    {
       name: 'Recipe Manager',
       description: ['Designed a full-stack recipe management system with Django REST Framework, Angular, and JWT authentication.',
       'Collaborated asynchronously with a distributed team using GitHub and Slack to implement CRUD operations and resolve UI bugs.'],
