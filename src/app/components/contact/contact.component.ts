@@ -21,7 +21,7 @@ export class ContactComponent {
     const publicKey = 'b79aJwjgiuScrZdGv';
 
     const templateParams = {
-      title: 'New Contact Message', // or anything meaningful
+      title: 'New Contact Message', 
       name: this.form.name,
       email: this.form.email,
       message: this.form.message
