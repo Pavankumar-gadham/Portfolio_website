@@ -16,7 +16,7 @@ export class ProjectsComponent {
       ],
       tech: ['Angular', 'DRF', 'Docker', 'AWS EC2', 'Nginx', 'SQLite'],
       image: 'assets/images/ecommerce.webp',
-      liveLink: 'http://16.171.174.66:3000',  
+      liveLink: 'http://my-angular-frontend-demo-123.s3-website.eu-north-1.amazonaws.com/home',  
       codeLink: 'https://github.com/Pavankumar-gadham/django-angular-ecommerce-aws-'
     },
 
