@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ExperienceComponent {
   experiences = [
     {
-      role:'DevOps Intern',
+      role:'DevOps Engineer Trainee',
       company:'ADYAHR BUSINESS SERVICES PRIVATE LIMITED',
       period: 'Dec 2023 - Nov 2025',
       description: [
