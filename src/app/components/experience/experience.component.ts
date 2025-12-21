@@ -10,7 +10,7 @@ export class ExperienceComponent {
     {
       role:'DevOps Engineer Trainee',
       company:'ADYAHR BUSINESS SERVICES PRIVATE LIMITED',
-      period: 'Dec 2023 - Nov 2025',
+      period: 'Dec 2023 - Present',
       description: [
             "•  Built and maintained CI/CD pipelines using GitHub Actions/Jenkins to automate builds, testing, and deployment for backend and frontend services.",
             "•  Containerized applications using Docker and optimized images, reducing deployment time by 30%.",
