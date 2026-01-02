@@ -11,10 +11,10 @@ export class ProjectsComponent {
     {
       name: 'Ecommerce Shopping Website',
       description: [
-        'Developed a full-stack eCommerce application using Angular and Django REST Framework with features like product management, user authentication, and cart/checkout workflow.',
-        'Containerized both frontend and backend using Docker and deployed the complete application on AWS EC2 with Nginx reverse proxy and persistent storage for production reliability.',
+        'Built and deployed a full-stack eCommerce platform using Angular and Django REST Framework, implementing authentication, product APIs, and checkout workflows.',
+        'Containerized frontend and backend with Docker and deployed on AWS EC2 behind an Nginx reverse proxy, improving deployment consistency and production reliability.',
       ],
-      tech: ['Angular', 'DRF', 'Docker', 'AWS EC2', 'Nginx', 'SQLite'],
+      tech: ['Angular', 'DRF', 'Docker', 'AWS EC2', 'Nginx', 'SQLite', 'Jenkins'],
       image: 'assets/images/ecommerce.webp',
       liveLink: 'http://my-angular-frontend-demo-123.s3-website.eu-north-1.amazonaws.com/home',  
       codeLink: 'https://github.com/Pavankumar-gadham/django-angular-ecommerce-aws-'
@@ -22,11 +22,11 @@ export class ProjectsComponent {
 
     {
       name: 'Recipe Manager',
-      description: ['Designed a full-stack recipe management system with Django REST Framework, Angular, and JWT authentication.',
-      'Collaborated asynchronously with a distributed team using GitHub and Slack to implement CRUD operations and resolve UI bugs.'],
-      tech: ['Angular', 'DRF', 'Python'],
+      description: ['Developed a REST-based recipe management application using Django REST Framework and Angular with JWT-based authentication.',
+      'Deployed the application on AWS EC2 using Docker, managed Linux-based servers, and collaborated via GitHub for version control and issue resolution.'],
+      tech: ['Python', 'AWS EC2', 'Docker', 'Linux', 'Git', 'MySQL'],
       image: 'assets/images/recipe.jpeg',
-      liveLink: 'http://51.21.3.134/home',
+      liveLink: 'http://foodie-frontend.s3-website.eu-north-1.amazonaws.com/',
       codeLink: 'https://github.com/Pavankumar-gadham/Foodie_Fullstack_DA'
     },
     {
