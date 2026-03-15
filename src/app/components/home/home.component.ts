@@ -9,7 +9,7 @@ import Typed from 'typed.js';
 export class HomeComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     new Typed('#typed', {
-      strings: ['DevOps Engineer', 'Cloud Engineer', 'Python Developer'],
+      strings: ['Cash Application Specialist', 'Senior Associate', 'Account Receivables'],
       typeSpeed: 50,
       backSpeed: 25,
       loop: true

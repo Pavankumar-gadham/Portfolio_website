@@ -1,5 +1,5 @@
 <section class="projects-section">
-  <h2>My <span>Projects</span></h2>
+  <h2>OTC - <span>Cash Application Workflows</span></h2>
 
   <div class="projects-grid">
     <div class="project-card" appInView *ngFor="let project of projects">
@@ -12,10 +12,7 @@
         <div class="tech-tags">
           <span *ngFor="let tech of project.tech">{{ tech }}</span>
         </div>
-        <div class="card-buttons">
-          <a [href]="project.liveLink" target="_blank" class="btn">Live</a>
-          <a [href]="project.codeLink" target="_blank" class="btn secondary">Code</a>
-        </div>
+       
       </div>
     </div>
   </div>

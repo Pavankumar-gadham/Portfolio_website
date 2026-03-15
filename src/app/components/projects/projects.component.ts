@@ -8,72 +8,42 @@ import { Project } from 'src/projects.model';
 })
 export class ProjectsComponent {
   projects: Project[] = [
+
     {
-      name: 'Ecommerce Shopping Website',
+      name: 'SAP Lockbox Payment Processing',
       description: [
-        'Built and deployed a full-stack eCommerce platform using Angular and Django REST Framework, implementing authentication, product APIs, and checkout workflows.',
-        'Containerized frontend and backend with Docker and deployed on AWS EC2 behind an Nginx reverse proxy, improving deployment consistency and production reliability.',
+        'Handled lockbox payment processing by retrieving remittance details from bank portals and matching incoming customer payments with open invoices in SAP.',
+        'Validated payment references, invoice numbers, and deposit details to ensure accurate payment posting and minimize unapplied cash.'
       ],
-      tech: ['Angular', 'DRF', 'Docker', 'AWS EC2', 'Nginx', 'SQLite', 'Jenkins'],
-      image: 'assets/images/ecommerce.webp',
-      liveLink: 'http://my-angular-frontend-demo-123.s3-website.eu-north-1.amazonaws.com/home',  
-      codeLink: 'https://github.com/Pavankumar-gadham/django-angular-ecommerce-aws-'
+      tech: ['SAP Accounts Receivable', 'Lockbox Processing', 'Payment Posting', 'Bank Portals', 'Microsoft Excel'],
+      image: 'assets/images/o2c.png',
+      liveLink: '',
+      codeLink: ''
     },
 
     {
-      name: 'Recipe Manager',
-      description: ['Developed a REST-based recipe management application using Django REST Framework and Angular with JWT-based authentication.',
-      'Deployed the application on AWS EC2 using Docker, managed Linux-based servers, and collaborated via GitHub for version control and issue resolution.'],
-      tech: ['Python', 'AWS EC2', 'Docker', 'Linux', 'Git', 'MySQL'],
-      image: 'assets/images/recipe.jpeg',
-      liveLink: 'http://foodie-frontend.s3-website.eu-north-1.amazonaws.com/',
-      codeLink: 'https://github.com/Pavankumar-gadham/Foodie_Fullstack_DA'
+      name: 'Unapplied Cash Investigation & Resolution',
+      description: [
+        'Investigated unapplied and unidentified payments by reviewing remittance advice and customer payment references.',
+        'Collaborated with collections teams and internal stakeholders to resolve discrepancies and ensure accurate allocation of payments to invoices.'
+      ],
+      tech: ['SAP O2C', 'Cash Application', 'Remittance Analysis', 'Customer Account Reconciliation', 'Stakeholder Communication'],
+      image: 'assets/images/o2c1.webp',
+      liveLink: '',
+      codeLink: ''
     },
+
     {
-      name: 'Food Ordering System',
-      description: ['Developed a dynamic food ordering web app using Django REST Framework and Angular with secure JWT authentication.',
-      'Integrated RESTful APIs and real-time order management features, enabling seamless remote frontend-backend communication.'],
-      tech: ['Angular', 'Django', 'MySQL'],
-      image: 'assets/images/food.jpg',
-      liveLink: 'https://angular-frontends.vercel.app/home',
-      codeLink: 'https://github.com/Pavankumar-gadham/Django-backend'
-    },
-    {
-      name: 'Ecommerce Shopping Website',
-      description: ['Built a scalable eCommerce platform and Angular with features like user authentication, product listings, and cart management.',
-      'Optimized database queries and collaborated via GitHub and Trello in a remote workflow environment.'],
-      tech: ['Angular', 'HTML', 'CSS', 'Javascript'],
-      image: 'assets/images/shopping.jpeg',
-      liveLink: 'https://e-commerce-shopping-azure.vercel.app/home',
-      codeLink: 'https://github.com/Pavankumar-gadham/E-commerce-shopping'
-    },
-    {
-      name: 'Image Search Application',
-      description: ['Created a web-based image search tool leveraging third-party APIs and Django backend for query processing.',
-      'Handled asynchronous API calls and integrated responsive Angular frontend for a smooth remote-accessible application.'],
-      tech: ['HTML', 'CSS', 'Javascript'],
-      image: 'assets/images/image.jpeg',
-      liveLink: 'https://image-search-seven-rouge.vercel.app/',
-      codeLink: 'https://github.com/Pavankumar-gadham/Image-Search'
-    },
-    {
-      name: 'Heart Disease Identification',
-      description: ['Developed a machine learning-powered health application with Django for backend predictions and integrated REST APIs.',
-      'Deployed in a remote test environment and coordinated issue tracking and model tuning via GitHub projects.'],
-      tech: ['Machine Learning', 'Flask', 'Mysql', 'python'],
-      image: 'assets/images/heart.avif',
-      liveLink: 'https://github.com/Pavankumar-gadham/Heart-disease-prediction',
-      codeLink: 'https://github.com/Pavankumar-gadham/Heart-disease-prediction'
-    },
-    {
-      name: 'Login Registration Form',
-      description: ['Designed a responsive, mobile-friendly login and registration UI using HTML, CSS, and vanilla JavaScript, implementing interactive form validations and animations.',
-      'Deployed and tested the application in a remote environment, collaborating via GitHub for version control and issue tracking.'],
-      tech: ['HTML', 'CSS', 'Javascript'],
-      image: 'assets/images/login.jpeg',
-      liveLink: 'https://login-registration-form-xi.vercel.app/',
-      codeLink: 'https://github.com/Pavankumar-gadham/Login-Registration-Form'
-    },
+      name: 'Customer Payment Reconciliation Process',
+      description: [
+        'Performed reconciliation between bank remittance data and SAP Accounts Receivable records to verify invoice values and payment transactions.',
+        'Managed scenarios such as partial payments, short payments, residual payments, and overpayments while maintaining accurate customer balances.'
+      ],
+      tech: ['SAP AR', 'Payment Reconciliation', 'Financial Data Validation', 'Excel (Pivot Tables, VLOOKUP)', 'O2C Process'],
+      image: 'assets/images/o2c2.jpg',
+      liveLink: '',
+      codeLink: ''
+    }
+
   ];
 }
-
